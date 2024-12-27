@@ -13,9 +13,6 @@ body {
   margin: 0 auto;
 }
 
-.head {
-  margin-bottom: 50px;
-}
 .head_main1 {
   padding: 15px 0;
   display: flex;
@@ -23,48 +20,62 @@ body {
   align-items: center;
   border-bottom: 1px solid rgba(22, 24, 32, 0.1490196078);
 }
-.head_main1 h2, .head_main1 p {
+
+.head_main1 h2,
+.head_main1 p {
   margin: 10px 0;
 }
+
 .head_main1 h2 {
   font-size: 14px;
 }
+
 .head_main1 p {
   font-size: 13px;
 }
+
 .head_img {
   display: flex;
   align-items: center;
 }
-.head_img_text h2, .head_img_text p {
+
+.head_img_text h2,
+.head_img_text p {
   margin: 3px 0 3px 15px;
 }
+
 .head_img_text h2 {
   font-size: 20px;
 }
+
 .head_info {
   height: 30px;
   display: flex;
   align-items: center;
 }
+
 .head_info a {
   text-decoration: none;
   color: #E15241;
   font-size: 15px;
 }
+
 .head_info a img {
   margin: 0 10px 0 20px;
   position: relative;
   top: 2px;
 }
+
 .head_main2 {
   padding: 10px 0;
 }
+
 .head_main2 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
 }
+
 .head_main2 a {
   text-decoration: none;
   font-weight: 600;
@@ -79,4 +90,67 @@ body {
   font-weight: 600;
   background-color: #191D2D;
   color: white;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.menu {
+  background-color: #191D2D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(img/menu.png) center no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.menu_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 530px;
+  height: 580px;
+  color: white;
+}
+
+.menu_text img {
+  margin-bottom: 50px;
+}
+
+.menu_text h1 {
+  font-size: 35px;
+  line-height: 45px;
+  margin: 10px 0 -30px 0;
+}
+
+.menu_text p {
+  color: #E2E3E4;
+  font-family: monospace;
+  font-weight: 100;
+  width: 330px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.menu_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn2 {
+  border: 1px solid #D1D2D5;
+  border-radius: 70px;
+  padding: 15px 25px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #D1D2D5;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.btn3 {
+  background-color: rgb(225, 82, 65);
+  border-radius: 55px;
+  border: none;
+  padding: 15px 25px;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
