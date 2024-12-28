@@ -4,7 +4,7 @@ body {
 }
 
 * {
-  font-family: sans-serif;
+  font-family: "Montserrat", serif;
   font-size: 18px;
 }
 
@@ -123,9 +123,8 @@ body {
 
 .menu_text p {
   color: #E2E3E4;
-  font-family: monospace;
   font-weight: 100;
-  width: 330px;
+  width: 370px;
   line-height: 30px;
   margin: 0;
 }
@@ -151,6 +150,46 @@ body {
   border: none;
   padding: 15px 25px;
   color: white;
+}
+
+.taxographs {
+  margin: 80px 0;
+}
+
+.taxographs_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taxographs_img img {
+  width: 420px;
+}
+
+.taxographs_text {
+  width: 800px;
+}
+
+.taxographs_text h1 {
+  font-size: 40px;
+}
+
+.taxographs_text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 30px 0;
+}
+
+.taxographs_text a {
+  text-decoration: none;
+  color: rgb(83, 166, 170);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.taxographs_text a img {
+  padding-left: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
